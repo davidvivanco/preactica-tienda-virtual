@@ -91,8 +91,7 @@ body {
     align-items: center;
 }
 
-
-.img-container img{
+.img-container img {
     width: 90%;
 }
 
@@ -124,16 +123,15 @@ body {
     margin-bottom: 2rem;
 }
 
-.footer .footer-icons .icon{
-    margin-right: 10px
+.footer .footer-icons .icon {
+    margin-right: 10px;
 }
 
-.nav-item{
-font-size: 0.8rem;
+.nav-item {
+    font-size: 0.8rem;
 }
 
 @media only screen and (min-width: 994px) {
-
     .nike {
         display: block;
     }
@@ -141,10 +139,10 @@ font-size: 0.8rem;
         display: block;
     }
 
-    .footer{
+    .footer {
         height: 170px;
     }
-    
+
     .icon-container {
         display: block;
         color: white;
@@ -161,22 +159,20 @@ font-size: 0.8rem;
     .icon-container .icon:hover {
         color: lightgray;
     }
-
-
 }
 
 @media only screen and (min-width: 720px) {
     .sidebar {
         display: block;
     }
-    .footer .footer-icons{
-        margin-bottom: 0
+    .footer .footer-icons {
+        margin-bottom: 0;
     }
-  
-    .nav-item{
+
+    .nav-item {
         font-size: 1rem;
-        }
-        
+    }
+
     .footer .footer-icons {
         flex-basis: 20%;
         font-size: 35px;
@@ -190,12 +186,11 @@ font-size: 0.8rem;
     .footer .footer-icons .icon:hover {
         color: lightgray;
     }
-    .footer{
+    .footer {
         flex-direction: row;
     }
 
     .footer ul {
-
         flex-direction: row;
     }
 
