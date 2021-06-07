@@ -6,7 +6,7 @@
     width: 18rem;
 }
 
-.img-container :hover{
+.img-container :hover {
     cursor: pointer;
 }
 
@@ -39,6 +39,10 @@
 .navbar {
     color: white;
 }
+
+.searchbar {
+    display: none;
+}
 .navbar .searchbar form {
     margin-left: 80px;
     display: flex;
@@ -52,7 +56,7 @@
 }
 
 .navbar .searchbar form button:hover {
-    background:#e20405;
+    background: #e20405;
 }
 
 .nav-link:hover {
@@ -63,26 +67,14 @@
     display: none;
 }
 
-@media only screen and (min-width: 720px) {
-    .sidebar {
-        display: block;
-    }
+
+
+.nike {
+    display: none;
 }
 
 .icon-container {
-    color: white;
-    font-size: 30px;
-    position: fixed;
-    right: 15px;
-}
-
-.icon-container .icon {
-    margin-right: 3.5rem;
-    cursor: pointer;
-}
-
-.icon-container .icon:hover {
-   color: lightgray;
+    display: none;
 }
 
 .footer {
@@ -94,18 +86,17 @@
     align-items: center;
 }
 
-.footer .footer-icons{
+.footer .footer-icons {
     flex-basis: 20%;
     font-size: 35px;
 }
 
-.footer .footer-icons .icon{
+.footer .footer-icons .icon {
     margin-right: 10px;
     cursor: pointer;
 }
-.footer .footer-icons .icon:hover{
+.footer .footer-icons .icon:hover {
     color: lightgray;
-
 }
 
 .footer ul {
@@ -123,4 +114,35 @@
 .footer ul li:hover {
     cursor: pointer;
     color: lightgray;
+}
+
+
+@media only screen and (min-width: 720px) {
+    .sidebar {
+        display: block;
+    }
+
+    .nike {
+        display: block;
+    }
+    .searchbar {
+        display: block;
+    }
+
+    .icon-container {
+        display: block;
+        color: white;
+        font-size: 22px;
+        position: fixed;
+        right: 10px;
+    }
+
+    .icon-container .icon {
+        margin-right: 2.8rem;
+        cursor: pointer;
+    }
+
+    .icon-container .icon:hover {
+        color: lightgray;
+    }
 }
