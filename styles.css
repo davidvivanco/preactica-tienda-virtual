@@ -1,0 +1,126 @@
+.navbar .navbar-brand {
+    margin-left: 10px !important;
+}
+
+.card {
+    width: 18rem;
+}
+
+.img-container :hover{
+    cursor: pointer;
+}
+
+.img-container p {
+    padding: 0;
+    margin: 0;
+}
+
+.img-container p:nth-child(2) {
+    font-weight: bold;
+}
+
+.img-container p:nth-child(5) {
+    margin-bottom: 1rem;
+    color: #e20405;
+    cursor: pointer;
+}
+
+.logo {
+    width: 70px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.nav-link {
+    cursor: pointer !important;
+    color: black;
+}
+
+.navbar {
+    color: white;
+}
+.navbar .searchbar form {
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .searchbar form button {
+    margin-left: 20px;
+    color: white;
+    border: 1px solid white;
+}
+
+.navbar .searchbar form button:hover {
+    background:#e20405;
+}
+
+.nav-link:hover {
+    color: #e20405;
+}
+
+.sidebar {
+    display: none;
+}
+
+@media only screen and (min-width: 720px) {
+    .sidebar {
+        display: block;
+    }
+}
+
+.icon-container {
+    color: white;
+    font-size: 30px;
+    position: fixed;
+    right: 15px;
+}
+
+.icon-container .icon {
+    margin-right: 3.5rem;
+    cursor: pointer;
+}
+
+.icon-container .icon:hover {
+   color: lightgray;
+}
+
+.footer {
+    width: 100vw;
+    height: 200px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.footer .footer-icons{
+    flex-basis: 20%;
+    font-size: 35px;
+}
+
+.footer .footer-icons .icon{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.footer .footer-icons .icon:hover{
+    color: lightgray;
+
+}
+
+.footer ul {
+    flex-basis: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer ul li {
+    margin: 10px;
+    list-style: none;
+}
+.footer ul li:hover {
+    cursor: pointer;
+    color: lightgray;
+}
